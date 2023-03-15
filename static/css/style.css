@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
 }
 body{
     background-color: #fff;
@@ -24,6 +26,133 @@ body{
     color: #fff;
 }
 
+
+
+/* DESKTOP VIEW NAVBAR */
+
+.wide-navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: #fff;
+    width: 90px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    left: 0;
+
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    margin-left: 25px;
+    transition: all 0.5s ease;
+    position: relative;
+    bottom: 10%;
+
+}
+
+
+.logo img{
+    border-radius: 50%;
+}
+.wide-navbar li{
+    list-style: none;
+}
+
+
+
+
+
+
+.wide-navbar a{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: table;
+    padding: 10px;
+}
+
+.wide-navbar ul{
+    margin-top: 30px;
+}
+.wide-navbar i{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    top: 14px;
+    color: blue;
+}
+
+.wide-navbar .nav-it{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+.wide-navbar a:hover{
+    background-color: #eee;
+    border-radius: 25%;
+
+}
+
+.wide-navbar span{
+    display: none;
+}
+
+.wide-navbar #home:hover{
+    position: absolute;
+    transition: all 0.5s ease;
+    display: inline;
+    border: 1px solid red;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.wide-navbar:hover span{
+    position: absolute;
+    transition: all 0.5s ease;
+    display: inline;
+    
+
+}
+
+
+.wide-navbar .profile{
+    position: absolute;
+    bottom: 0;
+} 
+
+
+
+
+
+
 @media (min-width: 768px) {
-  
+    .navbar{
+        display: none;
+
+    }
+
+    .container-fluid{
+        margin-left: 150px;
+        width: 80%;
+
+    }
+    
   }
+
+
+
+
+@media (max-width: 767px) {
+
+    .wide-navbar{
+        display: none;
+        
+    }
+  }
+
