@@ -125,7 +125,11 @@ body{
 .wide-navbar .profile{
     position: absolute;
     bottom: 0;
-} 
+}
+
+h1{
+    font-weight: bolder;
+}
 
 
 
