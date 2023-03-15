@@ -155,5 +155,8 @@ body{
         display: none;
         
     }
+    #rouse_img{
+        height: 250px;
+    }
   }
 
