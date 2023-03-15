@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* NAVIGATION BAR */
+
+.navbar ul{
+    padding: 10px;
+}
+.navbar ul li i{
+    margin-right: 20px;
+}
+
+.navbar ul li i:hover{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+  
+  }
