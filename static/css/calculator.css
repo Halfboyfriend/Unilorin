@@ -1,0 +1,61 @@
+.calculator{
+    position: relative;
+    padding: 1%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.calculator .profile-display{
+    text-align: start;
+    padding: 2% 5%;
+    border: 2.5px solid rgb(158, 149, 149);
+    width: 60%;
+    margin: auto;
+    display: flex;
+    font-size: 16px;
+}
+
+.calculator #profile_img{
+    position: absolute;
+    right: 25%;
+    width: 110px;
+}
+
+.calculator #line{
+    margin-top: 10px;
+    border-top: 2px solid rgb(158, 149, 149);
+}
+
+.result_table{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .calculator .profile-display{
+        
+        width: 80%;
+        font-size: 14px;
+        
+    }
+
+    .calculator #profile_img{
+        /* position: relative; */
+        right: 20%;
+        width: 80px;
+        
+    }
+
+  }
