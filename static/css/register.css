@@ -22,7 +22,7 @@
     padding: 20px;
     border-radius: 5px;
 }
-.register input{
+.register input, select{
     width: 60%;
     margin-left: 20px;
     border-radius: 5px;
@@ -36,3 +36,16 @@
     color: #fff;
     margin-top: 10px;
 }
+
+@media (min-width: 768px) {
+    .register{
+      width: 60%;
+    }
+   }
+ 
+ 
+ @media (min-width: 1050px) {
+     .register{
+       width: 50%;
+     }
+ }
